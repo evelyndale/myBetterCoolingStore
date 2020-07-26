@@ -39,7 +39,7 @@
     text-decoration: none;
 }
 body{
-    background: grey;
+    background: white;
 }
 .product-grid__container{
     margin-top: 5px;
@@ -48,9 +48,11 @@ body{
     grid-gap: 1rem;
 }
 .product-grid__container__item{
+    display: flex;
+    flex-flow: column;
     padding: 4px;
 }
 .product-grid__container__item__image{
-    height: 100%;
+    height: auto%;
     width: 100%;
 }
